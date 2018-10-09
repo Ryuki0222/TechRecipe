@@ -1,0 +1,435 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: rgb(39, 40, 34);
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background: black;
+  /* background: #0c1934; */
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: black;
+}
+
+.header .title {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  width: 120px;
+  height: 90%;
+  background-image: url("../img/logo.png");
+  background-size: 100% 100%;
+}
+
+.header .title a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header .fa-search {
+  position: absolute;
+  top: 24%;
+  left: 28.5%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #666;
+  z-index: 999;
+}
+
+.header .search_form {
+  position: absolute;
+  top: 22%;
+  left: 27.5%;
+  width: 45%;
+  height: 50%;
+  line-height: 12.5px;
+  font-size: 12.5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 3.5%;
+}
+
+.header .search_form:focus {
+
+}
+
+.header .user_icon {
+  position: absolute;
+  top: 22%;
+  right: 4%;
+  height: 56%;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+
+.header .user_icon:hover {
+  cursor: pointer;
+}
+
+.header .btn_github {
+  position: absolute;
+  top: 22%;
+  right: 4%;
+  width: 10%;
+  height: 50%;
+  border-radius: 5px;
+  border: solid 2px whitesmoke;
+  background: rgb(151, 70, 163);
+}
+
+.header .btn_github:hover {
+  cursor: pointer;
+  background: rgb(151, 70, 163);
+}
+
+.header .btn_github i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background: whitesmoke;
+  color: rgb(151, 70, 163);
+}
+
+.header .btn_github a {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+.main form {
+    position: relative;
+    top: 50px;
+}
+
+.main form .work_img {
+    position: absolute;
+    left: 4%;
+    width: 29%;
+    height: 233px;
+    border-radius: 5px;
+    background: white;
+}
+
+.main form .work_img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main form .work_img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.main form .work_img_uploder {
+    position: absolute;
+    left: 4%;
+    top: 237px;
+    color: white;
+}
+
+.main form ul {
+    position: absolute;
+    left: 34%;
+    width: 62%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main form ul li {
+    margin-bottom: 8px;
+    color: #444;
+    width: 97.5%;
+}
+
+.main form ul .work_name input {
+    position: relative;
+    width: 100%;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+}
+
+.main form ul .github_url input {
+  position: relative;
+  width: 100%;
+  line-height: 18px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+}
+
+.main form ul .skills input {
+    position: relative;
+    width: 100%;
+    line-height: 18px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+}
+
+.main form ul .work_description textarea {
+    position: relative;
+    width: 100%;
+    height: 105px;
+    line-height: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+}
+
+.main form ul .work_name input:focus, .main form ul .work_description textarea:focus {
+    border-radius: 5px;
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+/* 制作手順まわり */
+.main form h3 {
+  position: absolute;
+  top: 280px;
+  left: 4%;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.main form .flows {
+    position: absolute;
+    top: 320px;
+    left: 4%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.main form .flows .flow {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.main form .plus {
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+  font-size: 30px;
+  top: 30px;
+  left: 46%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  background: #bbb;
+  transition: all 0.3s;
+}
+
+.main form .plus i {
+  color: #fff;
+}
+
+.main form .plus:hover {
+  cursor: pointer;
+}
+
+/* 投稿ボタン */
+.main form .buttons {
+  position: relative;
+  top: 120px;
+  left: 41%;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* 最初と最後のアイテムは端に、残りは等間隔で配置 */
+  margin-bottom: 50px;
+}
+
+.main form .buttons button {
+  position: relative;
+  width: 200px;
+  background: #00B8D1;
+  border: solid 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.main form .buttons button:hover {
+  cursor: pointer;
+  background-color: #f9c500;
+}
+
+/*  */
+.main form .flows .flow h4 {
+  position: absolute;
+  left: 2%;
+  top: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #444;
+}
+
+.main form .flows .flow .flow_img {
+  position: absolute;
+  top: 65px;
+  left: 2%;
+  width: 25%;
+  height: 200px;
+  border-radius: 5px;
+  border: solid 1px #666;
+}
+
+.main form .flows .flow .flow_img span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main form .flows .flow .flow_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.main form .flows .flow .flow_img_uploder {
+  position: absolute;
+  left: 2%;
+  top: 275px;
+  color: #444;
+}
+
+.main form .flows .flow ul {
+  position: absolute;
+  top: 65px;
+}
+
+.main form .flows .flow ul .work_name input {
+  position: relative;
+  width: 97.5%;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+}
+
+.main form .flows .flow .flow_description {
+    position: absolute;
+    top: 65px;
+    left: 28%;
+    width: 68%;
+    height: 95px;
+    line-height: 18px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+}
+
+.main form .flows .flow .flow_description:focus {
+    border-radius: 5px;
+    box-shadow: 0 0 7px #3498db;
+    border: 1px solid #3498db;
+}
+
+
+/* リファレンス */
+.main form .flows .flow .flow_reference {
+  position: absolute;
+  top: 180px;
+  left: 28%;
+  width: 68%;
+  height: 73px;
+  line-height: 18px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+}
+
